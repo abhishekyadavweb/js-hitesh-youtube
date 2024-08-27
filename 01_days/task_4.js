@@ -6,13 +6,14 @@ console.log(3
     +
      3) // code readability should be high
 
-console.log("Hitesh")
+// console.log("Hitesh")
 
 
 let name = "hitesh"
 let age = 18
 let isLoggedIn = false
 let state;
+let rollNumber = [22,65,35,35]
 
 // number => 2 to power 53
 // bigint
@@ -27,3 +28,7 @@ let state;
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
+console.log(typeof age); // number
+console.log(typeof isLoggedIn);
+console.log(typeof name);
+console.log(typeof rollNumber);
