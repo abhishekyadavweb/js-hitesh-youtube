@@ -24,5 +24,20 @@ const myArr = [1, 2, 3, 4, 5]
 
 //***************task 7 ************* */
 
-myArr.map((num, i) => (num * 2) );
-console.log(myArr);
+// const doubleNum = myArr.map(num => num * 2 );
+// console.log(doubleNum);
+
+//*************task 8 ************* */
+
+// const evenNum = myArr.filter(num => num % 2 == 0);
+// console.log(evenNum);
+
+//************Task 9 ************ */
+
+const initialValue = 0;
+const sumWithInitial = myArr.reduce(
+  (accumulator, currentValue) => accumulator + currentValue,
+  initialValue,
+);
+
+console.log(sumWithInitial);
