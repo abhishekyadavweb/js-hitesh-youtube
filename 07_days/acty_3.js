@@ -39,7 +39,7 @@ const books ={ book: [
     year: 1965
 }
 ]
-book.details = function() {
+books.details = function() {
     return ` ${this.book.title} was published in ${this.year} `
 }
 }
